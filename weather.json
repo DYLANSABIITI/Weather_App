@@ -1,0 +1,85 @@
+{
+  "coord": {
+    "lon": 32.58,
+    "lat": 0.32
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 73.4,
+    "feels_like": 76.73,
+    "temp_min": 73.4,
+    "temp_max": 73.4,
+    "pressure": 1016,
+    "humidity": 83
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.82,
+    "deg": 280
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1604345618,
+  "sys": {
+    "type": 1,
+    "id": 2642,
+    "country": "UG",
+    "sunrise": 1604287806,
+    "sunset": 1604331377
+  },
+  "timezone": 10800,
+  "id": 232422,
+  "name": "Kampala",
+  "cod": 200
+}{
+  "coord": {
+    "lon": 32.58,
+    "lat": 0.32
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 73.4,
+    "feels_like": 76.73,
+    "temp_min": 73.4,
+    "temp_max": 73.4,
+    "pressure": 1016,
+    "humidity": 83
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.82,
+    "deg": 280
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1604345618,
+  "sys": {
+    "type": 1,
+    "id": 2642,
+    "country": "UG",
+    "sunrise": 1604287806,
+    "sunset": 1604331377
+  },
+  "timezone": 10800,
+  "id": 232422,
+  "name": "Kampala",
+  "cod": 200
+}
