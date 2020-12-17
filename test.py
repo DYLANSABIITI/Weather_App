@@ -1,7 +1,7 @@
 import requests
 import json
 
-city = "kampala"
+city = "mbale"
 country = "Uganda"
 api_key = "7b615df4505e553dd8ebb3a5e0b25be1"
 
@@ -14,9 +14,3 @@ json_data = json.dumps(data, indent=2)
 f = open("weather.json", "a")
 f.write(str(json_data))
 f.close
-
-
-temp = round(data['main']['temp'])
-humidity = data['main']['humidity']
-wind_speed = data['wind']['speed']
-description = data['weather']['description']

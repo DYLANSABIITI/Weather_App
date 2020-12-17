@@ -13,28 +13,28 @@
   ],
   "base": "stations",
   "main": {
-    "temp": 73.4,
-    "feels_like": 76.73,
-    "temp_min": 73.4,
-    "temp_max": 73.4,
-    "pressure": 1016,
-    "humidity": 83
+    "temp": 77,
+    "feels_like": 75.69,
+    "temp_min": 77,
+    "temp_max": 77,
+    "pressure": 1015,
+    "humidity": 73
   },
   "visibility": 10000,
   "wind": {
-    "speed": 5.82,
-    "deg": 280
+    "speed": 13.87,
+    "deg": 160
   },
   "clouds": {
     "all": 20
   },
-  "dt": 1604345618,
+  "dt": 1604419262,
   "sys": {
     "type": 1,
     "id": 2642,
     "country": "UG",
-    "sunrise": 1604287806,
-    "sunset": 1604331377
+    "sunrise": 1604374207,
+    "sunset": 1604417778
   },
   "timezone": 10800,
   "id": 232422,
@@ -55,31 +55,76 @@
   ],
   "base": "stations",
   "main": {
-    "temp": 73.4,
-    "feels_like": 76.73,
-    "temp_min": 73.4,
-    "temp_max": 73.4,
-    "pressure": 1016,
-    "humidity": 83
+    "temp": 77,
+    "feels_like": 75.69,
+    "temp_min": 77,
+    "temp_max": 77,
+    "pressure": 1015,
+    "humidity": 73
   },
   "visibility": 10000,
   "wind": {
-    "speed": 5.82,
-    "deg": 280
+    "speed": 13.87,
+    "deg": 160
   },
   "clouds": {
     "all": 20
   },
-  "dt": 1604345618,
+  "dt": 1604419216,
   "sys": {
     "type": 1,
     "id": 2642,
     "country": "UG",
-    "sunrise": 1604287806,
-    "sunset": 1604331377
+    "sunrise": 1604374207,
+    "sunset": 1604417778
   },
   "timezone": 10800,
   "id": 232422,
   "name": "Kampala",
+  "cod": 200
+}{
+  "coord": {
+    "lon": 34.17,
+    "lat": 1.08
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 73.92,
+    "feels_like": 78.66,
+    "temp_min": 73.92,
+    "temp_max": 73.92,
+    "pressure": 1008,
+    "humidity": 76,
+    "sea_level": 1008,
+    "grnd_level": 885
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.66,
+    "deg": 180
+  },
+  "rain": {
+    "1h": 0.29
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1604757921,
+  "sys": {
+    "country": "UG",
+    "sunrise": 1604719490,
+    "sunset": 1604762953
+  },
+  "timezone": 10800,
+  "id": 229278,
+  "name": "Mbale",
   "cod": 200
 }

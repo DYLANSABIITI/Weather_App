@@ -10,16 +10,16 @@
     <h1 style="text-align: center; color: black;"><u>Weather App</u></h1>
     <div class="container pt-3">
         <div style="background-color: black;" class="container pt-3">
-            <form action="/index.html" method="POST" class="was-validated">
+            <form action="/home" method="POST">
                 <div class="form-group">
                 <label for="uname">City:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter City" name="city" required>
+                <input type="text" class="form-control" placeholder="Enter City" name="city">
                 </div>
                 <div class="form-group">
                     <label for="uname">Country:</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter Country" name="country" required>
+                    <input type="text" class="form-control" placeholder="Enter Country" name="country">
                 </div>
-                <button type="button" class="btn btn-info btn-sm btn-block">Get Weather</button>
+                <button type="button" name="get_weather" class="btn btn-info btn-sm btn-block">GET WEATHER</button>
             </form>
             <br>
         </div>
@@ -27,10 +27,11 @@
     </div>
     <div class="container pt-3">
         <div class="container pt-3">
-            <h3 class="text-muted">Current weather in: {{ city }}</h3>
-            <h5 class="lead text-muted">Temperature: {{ temp }}F</h5>
-            <h5 class="lead text-muted">Wind Speed: {{ windspeed }}mph</h5>
-            <h5 class="lead text-muted">Description: {{ description }}</h5>
+            <h3 class="text-muted" style="color: black;">Current weather in: {{ city }}</h3>
+            <h5 class="lead text-muted" style="color: black;">Temperature: {{ temp }}F</h5>
+            <h5 class="lead text-muted" style="color: black;">Wind Speed: {{ windspeed }}mph</h5>
+            <h5 class="lead text-muted" style="color: black;">Humidity: {{ humid }}mph</h5>
+            <h5 class="lead text-muted" style="color: black;">Description: {{ description }}</h5>
         </div>
     </div>
 </body>
