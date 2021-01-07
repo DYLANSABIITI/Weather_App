@@ -1,9 +1,12 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
+load_dotenv('.env')
 
-city = "mbale"
+city = "kampala"
 country = "Uganda"
-api_key = "7b615df4505e553dd8ebb3a5e0b25be1"
+api_key = os.getenv("SECRET_KEY")
 
 url = requests.get(f"http://api.openweathermap.org/data/2.5/weather?appid={api_key}&q={city},{country}&units=imperial")
 
